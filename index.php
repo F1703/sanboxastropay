@@ -6,12 +6,12 @@ include 'clases/AstroPayCard.class.php';
 $ap = new AstroPayCard();
 
 //Cardholder data
-$x_card_num  = "1612708538608684";
-$x_card_code = "9500";
-$x_exp_date  = "09/2020";
+$x_card_num  = "1175000010737128";
+$x_card_code = "0679";
+$x_exp_date  = "03/2020";
 
 //Transaction data
-$x_amount      = "1.16";
+$x_amount      = "11.16";
 $x_unique_id   = "1234-987";
 $x_invoice_num = "pepits-097018813";
 
