@@ -25,7 +25,7 @@ class AstroPayCard
     private $x_response_format  = "json"; //Response format: "string", "json", "xml" (default: string) (recommended: json)
 
     //Sandbox (TODO: Change to false in production)
-    private $sandbox = false;
+    private $sandbox = true;
 
     public function __construct()
     {
