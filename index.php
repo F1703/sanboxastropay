@@ -8,7 +8,7 @@ $ap = new AstroPayCard();
 //Cardholder data
 $x_card_num  = "1612708538608684";
 $x_card_code = "9500";
-$x_exp_date  = "09/2018";
+$x_exp_date  = "09/2020";
 
 //Transaction data
 $x_amount      = "1.16";
