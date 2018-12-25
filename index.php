@@ -6,14 +6,14 @@ include 'clases/AstroPayCard.class.php';
 $ap = new AstroPayCard();
 
 //Cardholder data
-$x_card_num  = "1175000010737128";
-$x_card_code = "0679";
-$x_exp_date  = "12/2021";
+$x_card_num  = "1612708538608684";
+$x_card_code = "9500";
+$x_exp_date  = "09/2018";
 
 //Transaction data
 $x_amount      = "1.16";
 $x_unique_id   = "1234-987";
-$x_invoice_num = "pepita-097018813";
+$x_invoice_num = "pepits-097018813";
 
 //Making an AUTH_CAPTURE transaction, this method response has the result
 $response = $ap->auth_capture_transaction($x_card_num, $x_card_code, $x_exp_date, $x_amount, $x_unique_id, $x_invoice_num);
